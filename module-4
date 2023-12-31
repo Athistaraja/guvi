@@ -1,0 +1,41 @@
+Module 4th
+callback,
+promises
+fetch 
+async and await
+
+callback??
+
+1. What is Synchronous?
+step by step!!!
+2.If there is a time consuming Operations
+setTimeout(()=>{},millisec)
+it is an Inbuilt Async Function!!
+console.log("App is starting!!");
+setTimeout(()=>console.log("app is under maintaence"),3000)
+console.log("App is under Construction!!");
+setTimeout(()=>console.log("app is under testing!!"),2000)
+console.log("App is completed!!");
+2.callStack, Callback Queue/ Event Queue, Event Loop
+
+Call Stack: 
+it is like a ledger.It is used to keep the 
+track of the functions as well as the functions 
+that are call within!!
+call Stack is used to keep the track of the functions!!!
+
+Web API:
+it takes care the handling of Blocking Operations
+ or 
+it handles the blocking behaviour(time consuming) Of JS code 
+
+Callback Queue:
+it is to keep the functions that are coming 
+from the web api 
+or
+it is used to keep the track of functions that has completed 
+its execution from the web api 
+it is FIFO
+
+Event Loop:
+it is intermediatery between call stack and call back Queue
